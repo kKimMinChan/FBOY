@@ -1,0 +1,148 @@
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+img {
+    display: block;
+}
+header {
+    background-color: rgb(11, 11, 57);
+    height: 580px;
+    position: relative;
+    top: 0;
+    z-index: 9;
+    .announcement-bar-wrapper {
+        width: 100%;
+        padding-top: 3vw;
+        padding-bottom: 2vw;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        .logo img {
+            max-width: 100%;
+            max-height: 50px;
+        }
+        .inner {
+            width: 1100px;
+            height: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: aquamarine;
+            .main-menu {
+                display: flex;
+                position: absolute;
+                right: 0;
+                li {
+                    margin-right: 25px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        
+    }
+    .content-wrapper {
+        position: absolute;
+        bottom: 0;
+        padding: 5vw;
+        padding-bottom: 7vw;
+        .content {
+            h1 {
+                font-size: 80px;
+                margin-bottom: 32px;
+                color: #fff;
+                font-weight: 900;
+            }
+            h4 {
+                color: #fff;
+                font-weight: 900;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.Our_Mission {
+    padding: 140px 0 90px 0;
+    .content {
+        padding: 0 0 50px 0;
+        width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+        h3 {
+            color: #1f2147;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 32px;
+            
+        }
+        p {
+            font-size: 22px;
+            font-weight: 900;
+            color: #2659ff;
+        }
+    }
+    .img_box {
+        width: 1100px;
+        margin: auto;
+        overflow: hidden;
+        ul {
+            display: flex;
+            padding: 40px 0 100px;
+            li {
+                img {
+                    width: 250px;
+                }
+                width: 280px;
+                text-align: center;
+                font-weight: 900;
+                color: #2659ff;
+            }
+        }
+    } 
+}   
+    
+.Our_platform {
+    position: relative;
+    padding: 75px 90px;
+    .content {
+        width: 1100px;
+        margin: auto;
+        text-align: center;
+        h4 {
+            color: #2659ff;
+            font-weight: 900;
+            font-size: 19px;
+        }
+        h3 {
+            color: #1f2147;
+            margin: 32px 0;
+            font-size: 32px;
+            font-weight: 900;
+        }
+        p {
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+    >img {
+        width: 1100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
